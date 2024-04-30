@@ -1,4 +1,4 @@
-const Book = require(".../models/book");
+const Book = require("../models/book");
 
 const getAllBooks = async (req, res) => {
     try {
@@ -60,4 +60,4 @@ module.exports = {
     getBookById,
     updateBook,
     deleteBook,
-};
+  };
