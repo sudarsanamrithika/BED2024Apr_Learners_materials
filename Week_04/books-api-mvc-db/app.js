@@ -56,6 +56,4 @@ process.on("SIGINT", async () => {
 
 app.post("/books", validateBook, booksController.createBook); // POST for creating books (can handle JSON data)
 app.put("/books/:id", validateBook, booksController.updateBook);
-
 app.get("/users/search", usersController.searchUsers);
-module.exports = router;
